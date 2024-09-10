@@ -72,3 +72,15 @@ This CSV file contains the misclassified samples, including additional informati
 A list of Python packages and libraries required for running the notebooks in this repository. The file ensures that users can easily replicate the environment needed for training and evaluating the models.
 
 ---
+
+## Conclusion
+
+- **Model Selection Reflection**: The BERT model originally performed well, and the accuracy improvement when compared to the more powerful RoBERTa was limited.
+  
+- **Fine-Tuning Strategy**: Full parameter fine-tuning is recommended when computational resources permit. When using LoRA, careful attention should be paid to the learning rate settings.
+
+- **Testing Results**: With a baseline accuracy of 0.932 being quite high, the actual improvement to 0.943 is modest (0.011).
+
+- **Error Case Analysis**: It is strongly advised to re-annotate the data, especially focusing on category confusion and labeling errors.
+
+- **NLP Task Outlook**: For more complex tasks, instruction-based learning with LLMs becomes increasingly crucial.
