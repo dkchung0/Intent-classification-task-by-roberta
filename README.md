@@ -66,7 +66,7 @@ A list of Python packages and libraries required for running the notebooks in th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/dkchung0/Intent-classification-task-by-roberta.git
     ```
 
 2. Install dependencies:
