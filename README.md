@@ -6,6 +6,23 @@ This repository contains code and resources for an intent classification task us
 
 The dataset used for this project is [Banking77](https://huggingface.co/datasets/legacy-datasets/banking77), a dataset that contains 13,083 customer service queries labeled with 77 different user intents. It is commonly used for intent classification tasks in the field of natural language processing.
 
+## How to Use
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/dkchung0/Intent-classification-task-by-roberta.git
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the notebooks in the following order:
+    - `data_pre_eda.ipynb` for data preprocessing and analysis.
+    - `bert_base.ipynb`, `bert_large.ipynb`, and `roberta_lora.ipynb` for model training and evaluation.
+    - `error_analysis.ipynb` for analyzing misclassified data.
+  
 ## Files 
 
 ### 1. `data_pre_eda.ipynb`
@@ -55,23 +72,6 @@ This CSV file contains the misclassified samples, including additional informati
 A list of Python packages and libraries required for running the notebooks in this repository. The file ensures that users can easily replicate the environment needed for training and evaluating the models.
 
 ---
-
-## How to Use
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/dkchung0/Intent-classification-task-by-roberta.git
-    ```
-
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the notebooks in the following order:
-    - `data_pre_eda.ipynb` for data preprocessing and analysis.
-    - `bert_base.ipynb`, `bert_large.ipynb`, and `roberta_lora.ipynb` for model training and evaluation.
-    - `error_analysis.ipynb` for analyzing misclassified data.
 
 ## Project Summary
 
