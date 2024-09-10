@@ -1,4 +1,4 @@
-# Intent Classification Task - Repository Overview
+# Overview
 
 This repository contains code and resources for an intent classification task using the Banking77 dataset from Hugging Face, fine-tuning transformer-based models like BERT and RoBERTa, along with error analysis and preprocessing. Notably, the fine-tuning of the [FacebookAI/roberta-large](https://huggingface.co/FacebookAI/roberta-large) model achieved an accuracy of 0.94318 on the test dataset.
 
@@ -6,7 +6,7 @@ This repository contains code and resources for an intent classification task us
 
 The dataset used for this project is [Banking77](https://huggingface.co/datasets/legacy-datasets/banking77), a dataset that contains 13,083 customer service queries labeled with 77 different user intents. It is commonly used for intent classification tasks in the field of natural language processing.
 
-## Directory and File Overview
+## Files 
 
 ### 1. `data_pre_eda.ipynb`
 **Description**:  
