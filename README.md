@@ -1,6 +1,6 @@
 # Intent Classification Task - Repository Overview
 
-This repository contains code and resources for an intent classification task using the Banking77 dataset from Hugging Face, fine-tuning transformer-based models like BERT and RoBERTa, along with error analysis and preprocessing.
+This repository contains code and resources for an intent classification task using the Banking77 dataset from Hugging Face, fine-tuning transformer-based models like BERT and RoBERTa, along with error analysis and preprocessing. Notably, the fine-tuning of the [FacebookAI/roberta-large](https://huggingface.co/FacebookAI/roberta-large) model achieved an accuracy of 0.94318 on the test dataset.
 
 ## Dataset
 
@@ -53,6 +53,7 @@ This CSV file contains the misclassified samples, including additional informati
 ### 8. `requirements.txt`
 **Description**:  
 A list of Python packages and libraries required for running the notebooks in this repository. The file ensures that users can easily replicate the environment needed for training and evaluating the models.
+
 ---
 
 ## How to Use
