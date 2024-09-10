@@ -1,0 +1,176 @@
+﻿,text,label,pred_label,label_mapping,pred_label_mapping
+0,Can you freeze my card because someone used it while I was out of town. I did not make these purchases.,22,16,compromised_card,card_payment_not_recognised
+1,I made a transfer and am still waiting.,5,48,balance_not_updated_after_bank_transfer,pending_transfer
+2,How do I know when my card will arrive?,11,12,card_arrival,card_delivery_estimate
+3,Can I get my card expedited?,12,11,card_delivery_estimate,card_arrival
+4,How long does it take for a transfer?,67,5,transfer_timing,balance_not_updated_after_bank_transfer
+5,Can I change my currency from USD to EUR?,33,36,exchange_via_app,fiat_currency_support
+6,On my last transaction it seem that my top-up was not successful.,61,59,top_up_reverted,top_up_failed
+7,can I have a non virtual card?,43,40,order_physical_card,getting_virtual_card
+8,Why was I unable to do a transfer?,27,35,declined_transfer,failed_transfer
+9,Can you tell me what the transfer policy is?,56,27,top_up_by_bank_transfer_charge,declined_transfer
+10,I am waiting for my card to arrive.,12,11,card_delivery_estimate,card_arrival
+11,When will I get my card?,11,12,card_arrival,card_delivery_estimate
+12,Can I get a copy of the card by email?,40,43,getting_virtual_card,order_physical_card
+13,Why did I get a fee?,19,15,cash_withdrawal_charge,card_payment_fee_charged
+14,I need to verify my identity,69,74,verify_my_identity,why_verify_identity
+15,Can I add funds to the card directly from my bank account?,65,62,transfer_into_account,topping_up_by_card
+16,Can you look to make sure the exchange rate is correct,76,32,wrong_exchange_rate_for_cash_withdrawal,exchange_rate
+17,Can you freeze my account?  I just saw there are transactions on my account that I don't recognize.  How can I fix this?,16,22,card_payment_not_recognised,compromised_card
+18,I see a charge on my account that I don't recall making. I feel like my account may have been compromised.,16,22,card_payment_not_recognised,compromised_card
+19,What do i need to verify my id?,68,69,unable_to_verify_identity,verify_my_identity
+20,Why is a money transfer not showing?,48,5,pending_transfer,balance_not_updated_after_bank_transfer
+21,What are the fees for top-ups?,56,57,top_up_by_bank_transfer_charge,top_up_by_card_charge
+22,The new card that was just sent to me was declined multiple times yesterday when I tried to use it at a restaurant to pay for my dinner.  I am really disappointed  and embarrassed that my card was denied when I tried to use it to pay for my friend's birthday dinner.,25,14,declined_card_payment,card_not_working
+23,What other methods are there to verify my identity?,74,69,why_verify_identity,verify_my_identity
+24,Can I purchase extra non-virtual cards?,39,29,getting_spare_card,disposable_card_limits
+25,My card is being declined online. Could you tell me what might be broken or wrong with the account?,27,25,declined_transfer,declined_card_payment
+26,Can I reactivate my PIN?,49,38,pin_blocked,get_physical_card
+27,Where do I find the exchange rate?,31,32,exchange_charge,exchange_rate
+28,How do I accept exchanges to EU?,36,24,fiat_currency_support,country_support
+29,Why didn`t my topup go through?,59,61,top_up_failed,top_up_reverted
+30,Is it a good time to exchange?,32,33,exchange_rate,exchange_via_app
+31,Will a transfer incur a fee?,56,64,top_up_by_bank_transfer_charge,transfer_fee_charged
+32,Can I exchange currencies?,36,33,fiat_currency_support,exchange_via_app
+33,How do I freeze my card using the app?,22,41,compromised_card,lost_or_stolen_card
+34,How many virtual cards do I get?,29,40,disposable_card_limits,getting_virtual_card
+35,"When I got cash, I'm pretty sure there was a glitch that overcharged me.",19,76,cash_withdrawal_charge,wrong_exchange_rate_for_cash_withdrawal
+36,How long until my transfer will be available to me,5,67,balance_not_updated_after_bank_transfer,transfer_timing
+37,Good morning. I tried to make a purchase with my credit card last night and again this morning. Both times it was declined. Can you investigate?,27,53,declined_transfer,reverted_card_payment?
+38,Cannot access my top up.,62,59,topping_up_by_card,top_up_failed
+39,Are cheques accepted to my account? Mine didn't seem to work.,6,58,balance_not_updated_after_cheque_or_cash_deposit,top_up_by_cash_or_cheque
+40,Can I freeze my card right now?,22,41,compromised_card,lost_or_stolen_card
+41,"I transferred money yesterday, but it still isn't available?",48,5,pending_transfer,balance_not_updated_after_bank_transfer
+42,I was charged on my account that shouldn't be there.,28,52,direct_debit_payment_not_recognised,request_refund
+43,Double check your funds may be declined,27,26,declined_transfer,declined_cash_withdrawal
+44,what is the identity check?,74,69,why_verify_identity,verify_my_identity
+45,someone stole my money,28,20,direct_debit_payment_not_recognised,cash_withdrawal_not_recognised
+46,Will filling stations accept my card?,10,54,card_acceptance,supported_cards_and_currencies
+47,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",36,53,fiat_currency_support,reverted_card_payment?
+48,"I would like to know why my payment is still pending, can you help?",48,45,pending_transfer,pending_card_payment
+49,Can I use app to freeze account and dispute fraud?,22,55,compromised_card,terminate_account
+50,"Hi, i don't know what's going on i've just paid for my top up twice by accident can you help me get a refund please.",61,63,top_up_reverted,transaction_charged_twice
+51,I need some help with identity verification.,69,68,verify_my_identity,unable_to_verify_identity
+52,How long is it going to take for my funds to show in my account?,67,46,transfer_timing,pending_cash_withdrawal
+53,A wrong exchange rate was applied to a transaction made abroad.,76,17,wrong_exchange_rate_for_cash_withdrawal,card_payment_wrong_exchange_rate
+54,transaction failed?,66,35,transfer_not_received_by_recipient,failed_transfer
+55,How long does shipping take to get to a US destination?,12,67,card_delivery_estimate,transfer_timing
+56,How can I top-up my card?,58,62,top_up_by_cash_or_cheque,topping_up_by_card
+57,When will the transfer go through?,48,66,pending_transfer,transfer_not_received_by_recipient
+58,My account was charged for a withdraw I tried to make that was decline.,46,19,pending_cash_withdrawal,cash_withdrawal_charge
+59,WHERE IS MY MONEY I WAS USING MY CARD AND IT DISAPPEARED,62,61,topping_up_by_card,top_up_reverted
+60,My transfer is pending.,5,48,balance_not_updated_after_bank_transfer,pending_transfer
+61,I got a message that I need to verify my identity; what do I do?,69,74,verify_my_identity,why_verify_identity
+62,Will declined funds I tried to withdraw be returned to me?,75,26,wrong_amount_of_cash_received,declined_cash_withdrawal
+63,Is it possible for me to get money out in a different currency?,50,76,receiving_money,wrong_exchange_rate_for_cash_withdrawal
+64,What is needed to prove my identity?,69,68,verify_my_identity,unable_to_verify_identity
+65,When will my transfer go through?,48,5,pending_transfer,balance_not_updated_after_bank_transfer
+66,I didn't get the money I transferred,5,64,balance_not_updated_after_bank_transfer,transfer_fee_charged
+67,There is a fee I don't recognize on my statement.,34,16,extra_charge_on_statement,card_payment_not_recognised
+68,I put money into my account for the minimum balance but the application didn't accept.,61,27,top_up_reverted,declined_transfer
+69,Can I space out how often money is transferred along my travels?,4,60,automatic_top_up,top_up_limits
+70,"I really need money from my card today, but my card is getting declined. Please help!!",59,26,top_up_failed,declined_cash_withdrawal
+71,What is the base amount for cross-currency exchanges?,31,32,exchange_charge,exchange_rate
+72,Where can I view my PIN?,49,38,pin_blocked,get_physical_card
+73,What countries can I travel to and have access to their currencies?,36,33,fiat_currency_support,exchange_via_app
+74,When will my transfer be available in my account.,5,67,balance_not_updated_after_bank_transfer,transfer_timing
+75,The app will not let me into my account.,68,44,unable_to_verify_identity,passcode_forgotten
+76,"I wasn't charged the correct amount for an item I purchased, how can I fix this?",52,17,request_refund,card_payment_wrong_exchange_rate
+77,What can I use a virtual disposable card for?,29,37,disposable_card_limits,get_disposable_virtual_card
+78,how long dies it take for transfers to reflect on my balance,67,5,transfer_timing,balance_not_updated_after_bank_transfer
+79,How do I locate my card?,11,41,card_arrival,lost_or_stolen_card
+80,Is GBP a supported currency?,50,33,receiving_money,exchange_via_app
+81,I've tried numerous times to submit a transfer of funds. Why isn't it going through?,7,35,beneficiary_not_allowed,failed_transfer
+82,how can i top up?,62,65,topping_up_by_card,transfer_into_account
+83,What's with not verifying my Id?,68,74,unable_to_verify_identity,why_verify_identity
+84,Where is my transfer from [country]?,5,67,balance_not_updated_after_bank_transfer,transfer_timing
+85,Why hasn't my transfer gone through yet?,48,5,pending_transfer,balance_not_updated_after_bank_transfer
+86,my card was not in the mail again can you advise?,12,11,card_delivery_estimate,card_arrival
+87,My funding to my card didn't go through.,59,25,top_up_failed,declined_card_payment
+88,Where's the money that got charged to my card? It's not showing up in my account balance,62,53,topping_up_by_card,reverted_card_payment?
+89,"I show another charge on my card from when I used it, why?",15,63,card_payment_fee_charged,transaction_charged_twice
+90,Why hasn't my transfer been made?,35,66,failed_transfer,transfer_not_received_by_recipient
+91,My non-physical card will not work,72,14,virtual_card_not_working,card_not_working
+92,Am I able to exchange currencies?,36,33,fiat_currency_support,exchange_via_app
+93,I made an out of country transfer and it hasn't went through yet.,5,66,balance_not_updated_after_bank_transfer,transfer_not_received_by_recipient
+94,How long until my transfer goes through?,67,48,transfer_timing,pending_transfer
+95,What is the maximum number of transactions I can make with one card?,29,60,disposable_card_limits,top_up_limits
+96,"I am missing some funds from my account - I tried to transfer them using my credit card number, and it disappeared.",62,64,topping_up_by_card,transfer_fee_charged
+97,The app wouldn't accept my top up.,61,59,top_up_reverted,top_up_failed
+98,Someone has taken my money and I don't know who,28,20,direct_debit_payment_not_recognised,cash_withdrawal_not_recognised
+99,How much does it cost in fees to use your card?,43,15,order_physical_card,card_payment_fee_charged
+100,What should I do to get transactions off of my account if I didn't make them?  My card must have been compromised and I need to freeze it asap!,16,22,card_payment_not_recognised,compromised_card
+101,What can I use my card to pay for?,10,54,card_acceptance,supported_cards_and_currencies
+102,Is there a fee for exchanging cash?,76,31,wrong_exchange_rate_for_cash_withdrawal,exchange_charge
+103,"I am a new customer, and I happened to look at my app and there is a charge I am not familiar with.  Could you tell me why the extra charge is there?",34,15,extra_charge_on_statement,card_payment_fee_charged
+104,How do I freeze my account?,22,55,compromised_card,terminate_account
+105,how do VR cards work,37,40,get_disposable_virtual_card,getting_virtual_card
+106,When will my funds transfer?,66,5,transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer
+107,Why does my account not accept cash deposits?,6,58,balance_not_updated_after_cheque_or_cash_deposit,top_up_by_cash_or_cheque
+108,Can I change the amount I made on a payment that I made to the payment is correct.,8,17,cancel_transfer,card_payment_wrong_exchange_rate
+109,why did the app refuse to make an approved payment,53,25,reverted_card_payment?,declined_card_payment
+110,I can't transfer money from my account.,27,35,declined_transfer,failed_transfer
+111,Can I use app to freeze my card and dispute fraud?,22,41,compromised_card,lost_or_stolen_card
+112,"Hello- It is urgent I get a refund on this product. The merchant has not been helpful, what can I do now to get this resolved ASAP?",52,51,request_refund,Refund_not_showing_up
+113,What major card payments are accepted?,73,54,visa_or_mastercard,supported_cards_and_currencies
+114,I want to make a currency exchange to EU.,36,24,fiat_currency_support,country_support
+115,Is a non-electronic card available as well,43,40,order_physical_card,getting_virtual_card
+116,"I am traveling to Germany, Will I be able to use my card there?",10,24,card_acceptance,country_support
+117,My card payment did not complete.,25,45,declined_card_payment,pending_card_payment
+118,When will the transfer be completed?,48,66,pending_transfer,transfer_not_received_by_recipient
+119,Someone transferred money to me and it doesn't show,48,66,pending_transfer,transfer_not_received_by_recipient
+120,The exchange rate seems off on this transaction,17,76,card_payment_wrong_exchange_rate,wrong_exchange_rate_for_cash_withdrawal
+121,whats your exchange rate,31,32,exchange_charge,exchange_rate
+122,Where is the transfer I started?,66,5,transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer
+123,Nothing goes through on my card.,14,25,card_not_working,declined_card_payment
+124,I had a wrong fee charged at this ATM.,19,76,cash_withdrawal_charge,wrong_exchange_rate_for_cash_withdrawal
+125,how much you charge for exhcange,31,56,exchange_charge,top_up_by_bank_transfer_charge
+126,how many transactions can i make with a disposable card,37,29,get_disposable_virtual_card,disposable_card_limits
+127,Why am I being charged more ?,17,34,card_payment_wrong_exchange_rate,extra_charge_on_statement
+128,How long does a card delivery take?,11,12,card_arrival,card_delivery_estimate
+129,How do I reset my PIN?,49,21,pin_blocked,change_pin
+130,I think my statement has a fraudulent charge,16,28,card_payment_not_recognised,direct_debit_payment_not_recognised
+131,Where is the money I pushed it's on my mobile app as being withdrawn.,75,6,wrong_amount_of_cash_received,balance_not_updated_after_cheque_or_cash_deposit
+132,Where did this fee come from?,34,15,extra_charge_on_statement,card_payment_fee_charged
+133,"i know i entered the right info, but my top up isn't in my balance",62,47,topping_up_by_card,pending_top_up
+134,Why don't I have my transfer?,5,67,balance_not_updated_after_bank_transfer,transfer_timing
+135,How long do transfer pend for?,48,5,pending_transfer,balance_not_updated_after_bank_transfer
+136,Am I allowed to use any card to make a payment?,73,54,visa_or_mastercard,supported_cards_and_currencies
+137,I feel like too much money was taken during my currency exchange.,76,17,wrong_exchange_rate_for_cash_withdrawal,card_payment_wrong_exchange_rate
+138,Why can't I see the top-up amount I just added to my account?,62,47,topping_up_by_card,pending_top_up
+139,What extra charges are there?,64,15,transfer_fee_charged,card_payment_fee_charged
+140,I was trying to purchase something at the store today and my card has been declined.  Why has this happened?,25,27,declined_card_payment,declined_transfer
+141,What are your policies for card transfers?,35,29,failed_transfer,disposable_card_limits
+142,Can I use my card for payment all over the world?,10,54,card_acceptance,supported_cards_and_currencies
+143,Someone stole my cards!,42,41,lost_or_stolen_phone,lost_or_stolen_card
+144,Can I top up using an international card,57,54,top_up_by_card_charge,supported_cards_and_currencies
+145,I was retrieving money and my card wouldn't remove.,18,26,card_swallowed,declined_cash_withdrawal
+146,"I'm out of money, can I add money with my bank?",65,62,transfer_into_account,topping_up_by_card
+147,"How can I fix my card, it got declined twice.",27,25,declined_transfer,declined_card_payment
+148,Is there a way to know when my card will arrive?,11,12,card_arrival,card_delivery_estimate
+149,The NFC payment wouldn't work on the bus today. Help?,23,28,contactless_not_working,direct_debit_payment_not_recognised
+150,"I followed the instructions to transfer money using my card, but then the money disappeared and I don't know what happened.",62,64,topping_up_by_card,transfer_fee_charged
+151,Where is my money? I transfered it and it isn't in my account.,5,67,balance_not_updated_after_bank_transfer,transfer_timing
+152,"I was double charged, and the second charge is showing as ""pending"". How long will it be before I get my money back once the second charge has been refunded?",45,63,pending_card_payment,transaction_charged_twice
+153,How do I top up my card?,65,62,transfer_into_account,topping_up_by_card
+154,Is it okay to use a bank card to top up,57,62,top_up_by_card_charge,topping_up_by_card
+155,How do I cancel my card? There are charges on my account that I didn't make.,20,22,cash_withdrawal_not_recognised,compromised_card
+156,What is stopping my money from transferring?,35,7,failed_transfer,beneficiary_not_allowed
+157,How can I check the exchange rate applied to my transaction?,17,76,card_payment_wrong_exchange_rate,wrong_exchange_rate_for_cash_withdrawal
+158,Trouble transferring transaction contact for help,27,35,declined_transfer,failed_transfer
+159,Why didn't the ATM give me my money?,26,75,declined_cash_withdrawal,wrong_amount_of_cash_received
+160,WHAT CAN I DO AFTER THE CARD MISSING,0,41,activate_my_card,lost_or_stolen_card
+161,My card is just not working at this time.,72,14,virtual_card_not_working,card_not_working
+162,"My card's frozen, what can I do?",49,14,pin_blocked,card_not_working
+163,where can user find pin?,38,49,get_physical_card,pin_blocked
+164,How do I unblock my card using the app?,14,49,card_not_working,pin_blocked
+165,What stores can I sue my card?,10,41,card_acceptance,lost_or_stolen_card
+166,how long do money transfers take?,66,5,transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer
+167,how does a virtual card work,37,40,get_disposable_virtual_card,getting_virtual_card
+168,im not sure what this charge is for,15,28,card_payment_fee_charged,direct_debit_payment_not_recognised
+169,"I believe my money did not go through with my top up, was there a problem on your end?",61,59,top_up_reverted,top_up_failed
+170,Can you help with a transfer to an account,7,65,beneficiary_not_allowed,transfer_into_account
+171,How long does it take for an international transfer into my account?,5,67,balance_not_updated_after_bank_transfer,transfer_timing
+172,My ATM got stuck and I'm not sure what to do.,18,26,card_swallowed,declined_cash_withdrawal
+173,Is a copy of the police report necessary for completing the report process?,41,69,lost_or_stolen_card,verify_my_identity
+174,What happened to the cash that I tried to deposit into my account? It's gone!,6,61,balance_not_updated_after_cheque_or_cash_deposit,top_up_reverted
