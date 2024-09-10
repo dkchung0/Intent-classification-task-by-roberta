@@ -36,17 +36,17 @@ This notebook is used for fine-tuning the `bert-base` model on the intent classi
 ---
 
 #### 3. `bert_large.ipynb`
-This notebook focuses on fine-tuning the `bert-large` model for the same task. It compares the training process and performance of `bert-large` with `bert-base` to explore any improvements.
+This notebook focuses on fine-tuning the `bert-large` model for the same task.
 
 ---
 
 #### 4. `roberta_lora.ipynb`  
-This notebook demonstrates the fine-tuning of a `RoBERTa` model using Low-Rank Adaptation (LoRA). It highlights the efficiency gains from using LoRA and evaluates the model's performance on the intent classification task.
+This notebook demonstrates the fine-tuning of a `RoBERTa` model using Low-Rank Adaptation (LoRA). It shows how LoRA can reduce computational resource requirements while still achieving competitive performance. However, it also highlights that the best results were obtained with full parameter fine-tuning.
 
 ---
 
 #### 5. `error_analysis.ipynb`
-This notebook performs an in-depth analysis of misclassified samples from the intent classification task. It compares true and predicted labels and highlights areas where the model struggled, suggesting potential improvements.
+This notebook performs an in-depth analysis of misclassified samples from the intent classification task. It compares true and predicted labels to identify areas with potential data issues and provides insights into where data labeling may need refinement. It highlights the need for re-annotation of problematic data to improve overall model performance.
 
 ---
 
