@@ -72,7 +72,3 @@ This CSV file contains the misclassified samples, including additional informati
 A list of Python packages and libraries required for running the notebooks in this repository. The file ensures that users can easily replicate the environment needed for training and evaluating the models.
 
 ---
-
-## Project Summary
-
-This project compares different transformer-based models for an intent classification task using the [Banking77 dataset](https://huggingface.co/datasets/legacy-datasets/banking77). The dataset includes 77 different user intents derived from 13,083 customer service queries. Models like BERT (base and large variants) and RoBERTa with LoRA fine-tuning are used to classify these intents. The results of grid search hyperparameter tuning, error analysis, and visualizations are provided to give insights into model performance and potential improvements.
